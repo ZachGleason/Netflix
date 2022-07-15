@@ -1,0 +1,87 @@
+.header_icon {
+    object-fit: contain;
+    height: 90px;
+    display: flex;
+    padding-left: 50px;
+}
+
+.header {
+    width: 100vw; 
+    display: flex;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header_content {
+    display: flex;
+    max-width: 17vw;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-between;
+    padding-left: 25px;
+    font-size: 14px;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+.header_content > p:hover {
+    color: lightgrey;
+    cursor: pointer;
+}
+
+
+/*  */
+
+.header_right {
+    display: flex;
+    justify-content: end;
+    flex: auto;
+    align-items: center;
+}
+
+.header_search {
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+.header_right > p {
+    color: white;
+    font-size: 14px;
+    padding-left: 12px;
+}
+
+.header_right > p:hover {
+    color: lightgrey;
+    cursor: pointer;
+}
+
+.header_bell {
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.header_profile {
+    color: white;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.header_dropdown {
+    color: white;
+    font-size: 20px;
+}
+
+.header_align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    cursor: pointer;
+    padding-right: 50px;
+}

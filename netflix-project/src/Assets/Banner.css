@@ -1,0 +1,122 @@
+.banner {
+    height: 100vh;
+    width: 100vw;
+    background: url('https://occ-0-1340-1339.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABZUuSu4CZ3i9TCrp4FIcRXNTb1EKqw3-llb1s-BP9zvZ2n2UQNA5YaB4_nL5xICTo20f4Mq03xTphlRl1nEmGeqbe1y7LpvwzVP5.webp?r=a39') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.netflix_icon {
+    object-fit: contain;
+    height: 40px;
+
+}
+
+h3 {
+    font-family: 'Koulen', cursive;
+    letter-spacing: 12px;
+    font-size: 25px;
+    color: rgb(174, 170, 170) !important;
+    margin-left: 25px;
+}
+
+.banner_row {
+    display: flex;
+    align-items: center;
+    margin-left: 66px;
+    padding-top: 30vh;
+}
+
+.banner_text {
+    font-family: 'Nova Round', cursive;
+    color: white;
+    font-size: 115px;
+    letter-spacing: 10px;
+    margin-top: -5px;
+}
+
+.banner_row_two {
+    margin-left: 55px;
+}
+
+#evil {
+    margin-top: -30px;
+}
+
+.banner_content {
+    color: white;
+    font-size: 20px;
+}
+
+.banner_row_three {
+    margin-left: 65px;
+}
+
+.banner_buttons {
+    display: flex;
+    align-items: center;
+    margin-left: 66px;
+    margin-top: 20px;
+}
+
+.button_one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 50px;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.button_one:hover {
+    background-color: lightgray;
+}
+
+.button_two {
+    display: flex;
+    align-items: center;
+    width: 180px;
+    height: 50px;
+    margin-left: 15px ;
+    justify-content: center;
+     background-color: gray;
+     border: none;
+     color: white;
+     font-weight: 600;
+     border-radius: 5px;
+}
+
+.button_two:hover {
+    background-color: rgb(77, 77, 77);
+}
+
+.play {
+    display: inline-block;
+    align-items: center;
+    justify-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.info {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    cursor: pointer;
+}
+
+.play_content {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.info_content {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 10px;
+}

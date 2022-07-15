@@ -1,0 +1,26 @@
+.content {
+    background-color: black;
+    height: 100%;
+    width: 100vw;
+    padding-top: 80px;
+}
+
+h1 {
+    color: rgb(240, 240, 240);
+    font-weight: 550;
+    margin-left: 70px;
+}
+
+.content_explore {
+    color: white;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.content_header {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    margin-left: 50px;
+}
+

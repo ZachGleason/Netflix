@@ -1,0 +1,78 @@
+.footer {
+    background-color: black;
+    height: 40vh;
+    width: 100vw;
+}
+
+.footer_icons {
+    display: flex;
+    padding-top: 100px;
+    width: 100vw;
+    justify-content: center;
+}
+
+.instagram {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.twitter {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.youtube {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.facebook {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.footer_rows {
+    display: flex;
+    color: gray;
+    width: 100vw;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.footer_row_one {
+    margin-left: 150px;
+}
+
+.footer_row_two {
+    margin-left: 150px;
+}
+
+.footer_row_three {
+    margin-left: 150px;
+}
+
+.footer_row_four {
+    margin-left: 150px;
+}
+
+.footer_information {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.footer_information:hover {
+    color: white;
+    cursor: pointer;
+}
